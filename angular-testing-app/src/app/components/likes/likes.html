@@ -1,0 +1,6 @@
+<div class="like-container">
+  <button id="likeBtn"  [class.liked]="isLiked" (click)="toggleLike()">
+    <span>♥</span>
+    <span>  {{ likes }}</span>
+  </button>
+</div>
